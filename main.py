@@ -8,7 +8,3 @@ def twoSum(nums: list[int], target: int) -> list[int]:
             j -= 1
         else:
             i -= 1
-
-arr = [2, 7, 11, 15]
-num = 9
-print(twoSum(arr, num))
